@@ -1,0 +1,23 @@
+/*
+Adafruit Arduino - Lesson 13. DC Motor
+*/
+ 
+ 
+int motorPin = 6;
+ 
+void setup() 
+{ 
+  pinMode(motorPin, OUTPUT);
+  Serial.begin(9600);
+ 
+} 
+ 
+ 
+void loop() 
+{ 
+ 
+      digitalWrite(motorPin, HIGH);
+delay(1000);
+       digitalWrite(motorPin, LOW);
+   delay(1000);
+} 
